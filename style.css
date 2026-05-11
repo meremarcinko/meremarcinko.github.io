@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  /* Colors */
+  --color-bg: #EDEAF4;
+  --color-text: #1A2233;
+  --color-text-muted: #4A5A6E;
+  --color-border: #C5CCD9;
+  --color-cobalt: #2E5BFF;
+  --color-cobalt-dark: #1A3FD4;
+  --color-periwinkle: #4A4EB0;
+  --color-seafoam: #3DBFA0;
+
+  /* Typography */
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-size-display: 52px;
+  --font-size-h1: 36px;
+  --font-size-h2: 28px;
+  --font-size-h3: 22px;
+  --font-size-body: 16px;
+  --font-size-small: 14px;
+  --font-size-label: 12px;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 600;
+  --line-height-heading: 1.25;
+  --line-height-body: 1.7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* If you say an element is 300px wide and then add padding, the browser makes it wider than 300px, this makes it so that the padding is always included */
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-body);
+}
