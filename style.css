@@ -164,6 +164,7 @@ nav {
     text-decoration: none;
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-medium);
+    align-self: flex-start;
 }
 
 .btn-outline:hover {
@@ -265,4 +266,81 @@ nav {
 
 .card-link:hover {
     color: var(--color-navy);
+}
+
+/* About Strip */
+.about-strip {
+    display: flex;
+    gap: 64px;
+    align-items: center;
+    padding: 80px 48px;
+    background-color: var(--color-surface);
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    width: 100%;
+}
+
+.about-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-heading {
+    font-family: var(--font-accent);
+    font-size: var(--font-size-h2);
+    color: var(--color-navy);
+    line-height: var(--line-height-body);
+}
+
+.about-bio {
+    font-size: var(--font-size-body);
+    color: var(--color-text-muted);
+    line-height: var(--line-height-body);
+}
+
+.about-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.skill-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.skill-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 4px;
+}
+
+.skill-dot.blue {
+    background-color: var(--color-blue);
+}
+
+.skill-dot.yellow {
+    background-color: var(--color-yellow);
+}
+
+.skill-dot.navy {
+    background-color: var(--color-navy);
+}
+
+.skill-name {
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-navy);
+    margin-bottom: 2px;
+}
+
+.skill-tool {
+    font-size: var(--font-size-small);
+    color: var(--color-text-muted);
 }
