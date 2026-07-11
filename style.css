@@ -344,3 +344,40 @@ nav {
     font-size: var(--font-size-small);
     color: var(--color-text-muted);
 }
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 48px;
+    background-color: var(--color-navy);
+}
+
+.footer-name {
+    font-family: var(--font-accent);
+    font-size: 18px;
+    color: var(--color-surface);
+    margin-bottom: 4px;
+}
+
+.footer-tagline {
+    font-size: var(--font-size-small);
+    color: var(--color-blue-mid);
+}
+
+.footer-links {
+    display: flex;
+    gap: 32px;
+}
+
+.footer-links a {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-blue-mid);
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: var(--color-surface);
+}
