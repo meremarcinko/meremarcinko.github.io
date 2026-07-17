@@ -839,3 +839,30 @@ textarea {
     color: var(--color-navy);
     margin-bottom: 8px;
 }
+
+/* Before/After Grid */
+.before-after {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.ba-label {
+    font-size: var(--font-size-small);
+    color: var(--color-text-muted);
+    margin-bottom: 8px;
+}
+
+/* Tester Grid */
+.tester-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.tester-caption {
+    font-size: var(--font-size-small);
+    color: var(--color-text-muted);
+    text-align: center;
+    margin-top: 8px;
+}
