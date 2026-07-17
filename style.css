@@ -659,6 +659,10 @@ textarea {
     gap: 8px;
 }
 
+.case-links {
+    margin-top: 8px;
+}
+
 .tag {
     font-size: var(--font-size-label);
     font-weight: var(--font-weight-medium);
